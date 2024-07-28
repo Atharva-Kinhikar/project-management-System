@@ -1,0 +1,127 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 100px;
+
+}
+
+.sidebar {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  width: 50px;
+  height: 150px;
+  background-color: #f9f2f2;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+  background-color: transparent;
+}
+
+.sidebar-btn {
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  background-color: transparent;
+}
+
+.sidebar-btn:hover {
+  background-color: rgb(245, 247, 249);;
+}
+body {
+      margin: 10;
+      font-family: sans-serif;
+    }
+    
+.container {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  padding: 5px;
+  background-color: rgb(255, 255, 255);
+  scroll-margin-block-end: 10px; 
+  margin-left: 50px; 
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background-image: url('Header-bg.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.sidebar {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  width: 50px;
+  height: 150%;
+  background-color: #f5f7f9;
+  padding: 10px;
+  border-right: 1px solid #384cae;
+  border-right:none;
+  background-color: transparent;
+
+}
+
+.sidebar-btn {
+  border:none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #2d5d8c;
+  margin-bottom: 10px;
+  background-color: transparent;
+
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  width: 18%;
+  min-width: 120px;
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.card-value {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+.button {
+      padding: 10px 20px;
+      background-color: #eff2f4;
+      color: rgb(0, 0, 0);
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    .icon {
+      width: 50px;
+      height: 50px;
+      fill: #3067d4;
+    }

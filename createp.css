@@ -1,0 +1,166 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 100px;
+}
+
+
+.sidebar {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  width: 50px;
+  height: 150px;
+  background-color: #275d7f;
+  padding: 10px;
+  border-right: 1px solid #266693;
+  background-color: transparent;
+}
+
+.sidebar-btn {
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  background-color: transparent;
+}
+
+.sidebar-btn:hover {
+  background-color:rgb(245, 247, 249);
+}
+.row {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.col {
+  flex: 2;
+  padding: 4px;
+}
+
+.label {
+  font-weight:100;
+  margin-bottom: 5px;
+}
+body {
+      margin: 0;
+      font-family: sans-serif;
+    }
+
+  .container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 5px;
+  background-color: rgb(255, 255, 255);
+  scroll-margin-block-end: 10px; 
+  margin-left: 50px; 
+}
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 40px;
+      background-image: url('Header-bg.svg');
+      background-size: cover; 
+    color: white;
+    }   
+
+.sidebar {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  width: 50px;
+  height: 150%;
+  background-color: #f5f7f9;
+  padding: 10px;
+  border-right: 1px solid #384cae;
+  border-right:none;
+  background-color: transparent;
+
+}
+
+.sidebar-btn {
+  border:none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #2d5d8c;
+  margin-bottom: 10px;
+  background-color: transparent;
+
+}
+ .logo {
+      display:flex;
+      margin: auto;
+      width: 100px;
+      height: 90px;
+    }
+
+    .logo svg {
+      width: 100%;
+      height: 100%;
+      fill: #336597;
+    }
+    .content {
+      flex:auto;
+      padding: 30px;
+      background-color: white;
+    }
+    .form-group {
+      margin-bottom: 30px;
+    }
+    .form-group label {
+      display:block;
+      margin-bottom: 5px;
+    }
+    .form-group input[type="text"] {
+      width: 50%;
+      padding: 50px;
+      border: 1px solid #3067d4;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    .button {
+      padding: 10px 20px;
+      background-color: #eff2f4;
+      color: rgb(0, 0, 0);
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    .icon {
+      width: 50px;
+      height: 50px;
+      fill: #3067d4;
+    }
+  
+
+
+.input {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #5778e6;
+  border-radius: 5px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url('://upload.wikimedia.org/wikipedia//thumb/b/b6/Arrow_down_font_awesome.svg/1024px-Arrow_down_font_awesome.svg.png') no-repeat right 10px center;
+  background-size: 15px;
+  padding-right: 35px;
+}
+
+.status {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+}

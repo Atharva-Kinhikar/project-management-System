@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="createp.css".css">
+  <title>Project Management create-project</title>
+</head>
+<body>
+    <div class="sidebar">
+        <button class="button">
+            <a href="http://127.0.0.1:5500/dashboard.html">
+              <img src="Dashboard-active.svg" width="20" height="50">
+          </a>
+        </button>
+        <button class="button">
+          <a href="http://127.0.0.1:5500/projectlist.html">
+              <img src="Project-list.svg" width="20" height="50">
+          </a>
+        </button>
+        <button class="button">
+            <a href="http://127.0.0.1:5500/createproject.html">
+              <img src="create-project.svg" width="20" height="50">
+          </a>
+          <a href="http://127.0.0.1:5500/?">
+            <button class="sidebar-btn">
+              <img src="Logout.svg" width="20" height="50">
+            </button>
+          </a>
+        </button>
+      </div>
+    <div class="container">
+        <div class="header">
+            <h1>Create Project</h1>
+            <img src="logo.svg" alt="Logo" class="logo">
+          <a href="#">
+            <svg class="icon" viewBox="0 0 24 24">
+              <path d='login-bg.svg' />
+            </svg>
+            
+          </a>
+        </div>
+        
+
+        <div class="content">
+            <form>
+                <div class="form-group">
+                  <label for="project-theme"></label>
+                  <input type="text" id="project-theme" name="project-theme" placeholder="Enter Project Theme">
+                  
+                  <a href="projectlisting.html">
+                    <button type="submit" class="button">Save Project</button>
+                                  </a>
+                  <link rel="projectlisting" href="projectlisting.html">
+
+                </div>
+                
+                
+
+              </form>
+<div class="row">
+  <div class="col">
+    <div class="label">Reason</div>
+    <select class="select">
+      <option value="For Business">For Business</option>
+      <option value="For Business">For Delearship</option>
+      <option value="For Business">For Transport</option>
+
+    </select>
+  </div>
+  <div class="col">
+    <div class="label">Type</div>
+    <select class="select">
+      <option value="Internal">Internal</option>
+      <option value="Internal">External</option>
+      <option value="Internal">Vendor</option>
+
+    </select>
+  </div>
+  <div class="col">
+    <div class="label">Division</div>
+    <select class="select">
+      <option value="Filters">Filters</option>
+      <option value="Filters">Glass</option>
+      <option value="Filters">Pump</option>
+      <option value="Filters">Compressor</option>
+      <option value="Filters">Water heater</option>
+
+    </select>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col">
+    <div class="label">Category</div>
+    <select class="select">
+      <option value="Quality A">Quality A</option>
+      <option value="Quality A">Quality B</option>
+      <option value="Quality A">Quality C</option>
+      <option value="Quality A">Quality D</option>
+
+
+    </select>
+  </div>
+  <div class="col">
+    <div class="label">Priority</div>
+    <select class="select">
+      <option value="High">High</option>
+      <option value="High">Mediun</option>
+      <option value="High">low</option>
+    </select>
+  </div>
+  <div class="col">
+    <div class="label">Department</div>
+    <select class="select">
+      <option value="Strategy">Quality</option>
+      <option value="Strategy">Stores </option>
+      <option value="Strategy">Finance </option>
+      <option value="Strategy">Maintenance </option>
+
+    </select>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col">
+    <div class="label">Start Date as per Project Plan</div>
+    <input type="text" class="input" placeholder="DD MM YYYY">
+    <span class="icon" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%);">
+      <i class="fa fa-calendar" aria-hidden="true"></i>
+    </span>
+  </div>
+  <div class="col">
+    <div class="label">End Date as per Project Plan</div>
+    <input type="text" class="input" placeholder="DD MM YYYY">
+    <span class="icon" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%);">
+      <i class="fa fa-calendar" aria-hidden="true"></i>
+    </span>
+  </div>
+  <div class="col">
+    <div class="label">Location</div>
+    <select class="select">
+      <option value="Pune">Pune</option>
+      <option value="Pune">Mumbai</option>
+      <option value="Pune">Delhi</option>
+      <option value="Pune">Akola</option>
+      <option value="Pune">Nashik</option>
+      <option value="Pune">Buldana</option>
+
+    </select>
+  </div>
+</div>
+<div class="col">
+<div class="label">Status</div>
+<select class="select">
+  <option value="Pune">Registered</option>
+  <option value="Pune">Running</option>
+  <option value="Pune">Cancelled</option>
+  <option value="Pune">Closed</option>
+  
+</select>
+  
+</div>
+
+</select>
+</body>
+</html>
+
+
+

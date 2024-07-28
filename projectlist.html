@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Project Listing</title>
+  <link rel="stylesheet" href="projectl.css">
+  <title>Project Management Project-list</title>
+</head>
+<body>
+ 
+  <div class="sidebar">
+    <button class="button">
+        <a href="http://127.0.0.1:5500/dashboard.html">
+          <img src="Dashboard-active.svg" width="20" height="50">
+      </a>
+    </button>
+    <button class="button">
+      <a href="http://127.0.0.1:5500/projectlist.html">
+          <img src="Project-list.svg" width="20" height="50">
+      </a>
+    </button>
+    <button class="button">
+        <a href="http://127.0.0.1:5500/createproject.html">
+          <img src="create-project.svg" width="20" height="50">
+      </a>
+      <a href="http://127.0.0.1:5500/?">
+        <button class="sidebar-btn">
+          <img src="Logout.svg" width="20" height="50">
+        </button>
+      </a>
+    </button>
+  </div>
+
+    <div class="header">
+      <div style="background-image:url('Header-bg.svg');">
+     
+        <div style="float: left;">
+        
+        <a href="#" style="color: rgb(255, 255, 255); text-decoration: none;">
+            <h2>Project Listing</h2> 
+          </a> 
+      </div>
+      <div style="float: center;">
+        <img src="Logo.svg" width="1200" height="80">
+      </div>
+    </div>
+  </div>
+  <div class="container">
+     <div>
+        <input type="text" placeholder="Search" style="width: 250px;">
+      </div>
+      <div>
+        <select style="padding: 1px;; border: 1px solid #faf6f6; border-radius: 5px;">
+          <option value="priority">Sort By: Priority</option>
+          <option value="name">Sort By: Name</option>
+          <option value="status">Sort By: Status</option>
+        </select>
+      </div>
+    </div>
+  
+    <table id="project-table">
+      <thead>
+        <tr>
+          <th>Project Name</th>
+          <th>Reason</th>
+          <th>Type</th>
+          <th>Division</th>
+          <th>Category</th>
+          <th>Priority</th>
+          <th>Dept</th>
+          <th>Location</th>
+          <th>Status</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Line Filter</td>
+          <td>Business</td>
+          <td>Internal</td>
+          <td>Compressor</td>
+          <td>Quality A</td>
+          <td>High</td>
+          <td>Startegy</td>
+          <td>Pune</td>
+          <td>Running</td>
+          <td>
+            <button class="action-button" data-action="start">Start</button>
+            <button class="action-button" data-action="close">Close</button>
+            <button class="action-button" data-action="cancel">Cancel</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Sticker Management</td>
+          <td>Dealership</td>
+          <td>External</td>
+          <td>Filters</td>
+          <td>Quality B</td>
+          <td>Low</td>
+          <td>Finance</td>
+          <td>Delhi</td>
+          <td>Running</td>
+          <td>
+            <button class="action-button" data-action="start">Start</button>
+            <button class="action-button" data-action="close">Close</button>
+            <button class="action-button" data-action="cancel">Cancel</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Pumps Connector</td>
+          <td>Transport</td>
+          <td>Internal</td>
+          <td>Compressor</td>
+          <td>Quality C</td>
+          <td>Medium</td>
+          <td>Quality</td>
+          <td>Mumbai</td>
+          <td>Registered</td>
+          <td>
+            <button class="action-button" data-action="start">Start</button>
+            <button class="action-button" data-action="close">Close</button>
+            <button class="action-button" data-action="cancel">Cancel</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Wall Reflector</td>
+          <td>Business</td>
+          <td>Vendor</td>
+          <td>Pumps</td>
+          <td>Quality A</td>
+          <td>High</td>
+          <td>Maintenance</td>
+          <td>Pune</td>
+          <td>Cancelled</td>
+          <td>
+            <button class="action-button" data-action="start">Start</button>
+            <button class="action-button" data-action="close">Close</button>
+            <button class="action-button" data-action="cancel">Cancel</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Tank Filter</td>
+          <td>Business</td>
+          <td>External</td>
+          <td>Glass</td>
+          <td>Quality A</td>
+          <td>High</td>
+          <td>Stores</td>
+          <td>Mumbai</td>
+          <td>Registered</td>
+          <td>
+            <button class="action-button" data-action="start">Start</button>
+            <button class="action-button" data-action="close">Close</button>
+            <button class="action-button" data-action="cancel">Cancel</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Water Heater</td>
+          <td>Dealership</td>
+          <td>Vendor</td>
+          <td>Compressor</td>
+          <td>Quality D</td>
+          <td>Low</td>
+          <td>Finance</td>
+          <td>Pune</td>
+          <td>Cancelled</td>
+          <td>
+            <button class="action-button" data-action="start">Start</button>
+            <button class="action-button" data-action="close">Close</button>
+            <button class="action-button" data-action="cancel">Cancel</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Large Mixer</td>
+          <td>Transport</td>
+          <td>External</td>
+          <td>Water Heater</td>
+          <td>Quality A</td>
+          <td>Low</td>
+          <td>Stores</td>
+          <td>Delhi</td>
+          <td>Closed</td>
+          <td>
+            <button class="action-button" data-action="start">Start</button>
+            <button class="action-button" data-action="close">Close</button>
+            <button class="action-button" data-action="cancel">Cancel</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="pagination">
+      <button class="page-button">&lt;&lt;</button>
+      <button class="page-button">&lt;</button>
+      <button class="page-button">2</button>
+      <button class="page-button">3</button>
+      <button class="page-button">4</button>
+      <span>...</span>
+      <button class="page-button">56</button>
+      <button class="page-button">&gt;</button>
+      <button class="page-button">&gt;&gt;</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

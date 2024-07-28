@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="dash1.css">
+  <title>Project Management Dashboard</title>
+</head>
+
+<body>
+  <div id="root"></div>
+  <div class="sidebar">
+    <button class="button">
+      <a href="http://127.0.0.1:5500/dashboard.html">
+        <img src="Dashboard-active.svg" width="20" height="50">
+      </a>
+    </button>
+    <button class="button">
+      <a href="http://127.0.0.1:5500/projectlist.html">
+        <img src="Project-list.svg" width="20" height="50">
+      </a>
+    </button>
+    <button class="button">
+      <a href="http://127.0.0.1:5500/createproject.html">
+        <img src="create-project.svg" width="20" height="50">
+      </a>
+      <a href="http://127.0.0.1:5500/?">
+        <button class="sidebar-btn">
+          <img src="Logout.svg" width="20" height="50">
+        </button>
+      </a>
+    </button>
+  </div>
+  <div class="header">
+
+    <div style="background-image:url('Header-bg.svg');">
+
+      <div style="float: left;">
+
+        <a href="#" style="color: rgb(255, 255, 255); text-decoration: none;">
+          <h2>Dashboard</h2>
+        </a>
+      </div>
+      <div style="float: center;">
+        <img src="Logo.svg" width="1200" height="80">
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <div class="card">
+      <div class="card-title">Total Projects</div>
+      <div class="card-value">8</div>
+    </div>
+    <div class="card">
+      <div class="card-title">Closed</div>
+      <div class="card-value">2</div>
+    </div>
+    <div class="card">
+      <div class="card-title">Running</div>
+      <div class="card-value">3</div>
+    </div>
+    <div class="card">
+      <div class="card-title">Closure Delay</div>
+      <div class="card-value">2</div>
+    </div>
+    <div class="card">
+      <div class="card-title">Cancelled</div>
+      <div class="card-value">3</div>
+    </div>
+  </div>
+  <div class="container">
+    <h2 class="title">Department wise - Total Vs Closed</h2>
+  </div>
+
+  <script src="dash.js"></script>
+
+  <script>
+    fetch('/dashboard')
+      .then(response => response.json())
+      .then((data) => {
+        console.log(data);
+        // Update the page with the dashboard data
+        
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+  </script>
+</body>
+
+</html>

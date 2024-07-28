@@ -1,0 +1,142 @@
+/* style.css */
+body {
+  font-family:sans-serif;
+  margin-left: 100px;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.sidebar {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    width: 50px;
+    height: 150px;
+    background-color: #f9f2f2;
+    padding: 10px;
+    border-right: 1px solid #ddd;
+    border-right:none;
+    background-color: transparent;
+  }
+  
+  .sidebar-btn {
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    background-color: transparent;
+  }
+  
+  .sidebar-btn:hover {
+    background-color: #f9fafc;
+  }
+  body{
+    margin: 10;
+    font-size: sans-serif;
+  }
+ 
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 5px;
+    scroll-margin-block-end: 10px; 
+    background-color: rgb(255, 255, 255);
+    margin-left: 50px; 
+  
+  }
+ 
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-image: url('Header-bg.svg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:left;
+    color: white;
+  }
+  
+  
+  h1 {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  
+  #search {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #project-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  #project-table th,
+  #project-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+  }
+  
+  #project-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .action-button {
+    padding: 10px;
+    margin: 5px;
+    background-color: #476de1; /* Green */
+    color: rgb(1, 10, 19);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    background-color: transparent;
+  }
+  
+  .page-button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #ccc;
+    border: none;
+    border-radius:4px;
+ 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+  } .button {
+    padding: 10px 20px;
+    background-color: #eff2f4;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .icon {
+    width: 50px;
+    height: 50px;
+    fill: #3067d4;
+  }
